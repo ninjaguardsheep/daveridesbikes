@@ -1,9 +1,7 @@
 ---
 layout: post.liquid
-
 title: Tubless Tyre Setup
 description: "Look Mum, no tubes!"
-tags: [bikes]
 ---
 
 Having bought a set of pre-taped Tubless Ready wheels for my work in progress gravel bike build, I decided I might as well have a go at setting them up tubeless.

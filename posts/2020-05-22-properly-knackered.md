@@ -1,9 +1,7 @@
 ---
 layout: post.liquid
-
 title: Properly Knackered
 description: "On lockdown cycling and achieving that properly knackered feeling."
-tags: [bikes]
 ---
 
 With British Summer Time upon us and the weather here in the UK getting its act together just in time for a country wide lockdown. I've been thinking about what my cycling is going to look like in 2020.

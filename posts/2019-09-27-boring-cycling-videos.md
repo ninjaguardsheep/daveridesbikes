@@ -1,9 +1,7 @@
 ---
 layout: post.liquid
-
 title: Boring Cycling Videos
 description: "The Mrs bought me a GoPro for my 30th, so I set out to film the most uninteresting cycling videos possible."
-tags: [bikes]
 ---
 
 So Nat bought me a GoPro Hero 2018 for my 30th.
