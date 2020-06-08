@@ -1,0 +1,15 @@
+---
+title: Dave Rides Bikes
+layout: default.liquid
+---
+<section>
+<p>Dave rides bikes for great justice and because its fun. Occasionally he writes about the experience here.</p>
+</section>
+<hr>
+<nav id="index">
+<ul>
+{% for post in collections.posts.pages %}
+<li><time datetime="{{ post.published_date | date: "%F" }}">{{ post.published_date | date: "%b %d, %Y" }}</time><a href="/{{post.permalink}}">{{ post.title }}</a></li>
+{%- endfor -%}
+</ul>
+</nav>

@@ -1,0 +1,9 @@
+source: "."
+site:
+  title: Dave Rides Bikes
+  description: Dave's Blog
+  base_url: https://drb.dnhome.uk/
+posts:
+  dir: posts
+  rss: feed.xml
+  jsonfeed: feed.json
