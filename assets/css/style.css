@@ -1,22 +1,11 @@
 :root {
     --bg-color: #fff;
-    --title-color: #82ad68;
-    --header-color: #2c3739;
-    --color: #2c3739;
-    --link-color: #2c3739;
-    --selection-color: #2c3739;
-    --selection-bg-color: #82ad68;
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #2c3739;
-        --title-color: #82ad68;
-        --header-color: #94aab5;
-        --color: #94aab5;
-        --link-color: #94aab5;
-        --selection-color: #2c3739;
-        --selection-bg-color: #82ad68;
-    }
+    --title-color: #80aa68;
+    --header-color: #2d3738;
+    --color: #2d3738;
+    --link-color: #2d3738;
+    --selection-color: #2d3738;
+    --selection-bg-color: #80aa68;
 }
 html,body {
     height: 100%;
@@ -132,7 +121,7 @@ a::selection {
 #title_img {
     height: 360px;
     width: 640px;
-    background-image: url("/assets/img/header.jpg");
+    background-image: url("/assets/img/header.png");
     margin: 0 auto 0.5em auto;
     position: relative;
     flex: 0 0 auto;
