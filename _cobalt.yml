@@ -2,7 +2,7 @@ source: "."
 site:
   title: Dave Rides Bikes
   description: Dave's Blog
-  base_url: https://drb.dnhome.uk/
+  base_url: https://www.daveridesbikes.xyz/
 posts:
   dir: posts
   rss: feed.xml
