@@ -78,7 +78,6 @@ nav a {
     color: var(--header-color);
     font-weight: bold;
     font-size: 1.1rem;
-    text-decoration: none;
 }
 nav hr {
     width: auto;
@@ -113,6 +112,7 @@ a::selection {
     flex: 1 0 auto;
 }
 #title {
+    background-color: var(--color);
     bottom: 0;
     right: 0.2em;
     margin: 0;
@@ -133,7 +133,6 @@ a::selection {
     display: inline-block;
     width: 7em;
     margin: 0.5em auto 0.5em 0;
-    border-right: 2px solid var(--color);
 }
 #index a {
     display: inline-block;
