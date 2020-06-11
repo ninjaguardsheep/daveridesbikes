@@ -9,7 +9,7 @@ layout: default.liquid
 <nav id="index">
 <ul>
 {% for post in collections.posts.pages %}
-<li><time datetime="{{ post.published_date | date: "%F" }}">{{ post.published_date | date: "%b %d, %Y" }}</time><a href="/{{post.permalink}}">{{ post.title }}</a></li>
+<li><time datetime="{{ post.published_date | date: "%F" }}">{{ post.published_date | date: "%b %d, %Y " }}</time><a href="/{{post.permalink}}">{{ post.title }}</a></li>
 {%- endfor -%}
 </ul>
 </nav>

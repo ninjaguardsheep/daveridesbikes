@@ -130,12 +130,12 @@ a::selection {
 }
 #index time {
     display: inline-block;
-    width: 7em;
-    margin: 0.5em auto 0.5em 0;
+    width: 8em;
+    margin: 0.5em 0;
 }
 #index a {
     display: inline-block;
-    margin: 0.5em auto 0.5em 2em;
+    margin: 0.5em 0;
 }
 /* Scale elements on smaller screens to prevent side-scrolling */
 @media only screen and (max-width: 640px) {
