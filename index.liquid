@@ -2,14 +2,12 @@
 title: Dave Rides Bikes
 layout: default.liquid
 ---
-<section>
 <p>{{ site.description }}</p>
-</section>
 <hr>
 <nav id="index">
 <ul>
-{% for post in collections.posts.pages %}
+{% for post in collections.posts.pages -%}
 <li><time datetime="{{ post.published_date | date: "%F" }}">{{ post.published_date | date: "%b %d, %Y " }}</time><a href="/{{post.permalink}}">{{ post.title }}</a></li>
-{%- endfor -%}
+{% endfor -%}
 </ul>
 </nav>

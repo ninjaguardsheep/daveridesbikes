@@ -25,5 +25,5 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <!-- Search Engines -->
 <meta name="description" content={%- if page.description == "" -%}"{{ site.description }}"{%- else -%}"{{ page.description }}"{%- endif -%}>
-<title>{{ page.title }}</title>
+<title>{%- if page.title == site.title -%}{{ page.title }}{%- else -%}{{ page.title }} | {{ site.title }}{%- endif -%}</title>
 </head>
