@@ -125,6 +125,7 @@ a::selection {
     margin: 0 auto 0.5em auto;
     position: relative;
     flex: 0 0 auto;
+    image-rendering: pixelated;
 }
 #index li {
     display: block;
