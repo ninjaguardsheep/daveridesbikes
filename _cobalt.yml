@@ -1,8 +1,8 @@
 source: "."
 site:
   title: Dave Rides Bikes
-  description: Dave's Blog
-  base_url: https://www.daveridesbikes.xyz/
+  description: Dave rides bikes for great justice and because its fun. Occasionally he writes about the experience.
+  base_url: https://www.daveridesbikes.xyz
 posts:
   dir: posts
   rss: feed.xml

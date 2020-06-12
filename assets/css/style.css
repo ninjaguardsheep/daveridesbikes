@@ -136,6 +136,7 @@ a::selection {
 #index a {
     display: inline-block;
     margin: 0.5em 0;
+    font-weight: normal;
 }
 /* Scale elements on smaller screens to prevent side-scrolling */
 @media only screen and (max-width: 640px) {
