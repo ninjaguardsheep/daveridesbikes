@@ -2,15 +2,15 @@
 <html lang="en" id="top">
 {% include "_head.liquid" -%}
 <body>
-<div id="container">
 <main>
 <article>
-<h1>{{ page.title -}}</h1>
+{% include "_post_title.liquid" -%}
+<div id="content">
 {{ page.content -}}
+</div>
 </article>
 </main>
 {% include "_navigation.liquid" -%}
-</div>
 {% include "_footer.liquid" -%}
 </body>
 </html>

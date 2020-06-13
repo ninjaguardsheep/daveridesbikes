@@ -20,9 +20,13 @@ body {
     display: flex;
     flex-direction: column;
 }
+main {
+    flex: 0 0 auto;
+}
 h1,h2,h3 {
     font-weight: bold;
     margin: 1em 0;
+    padding: 0 0.1em;
 }
 h1 {
     color: var(--title-color);
@@ -69,20 +73,6 @@ nav ul {
     padding: 0;
     list-style-type: none;
 }
-nav li {
-    display: inline-block;
-    padding: 0 1em 0 0;
-}
-nav a {
-    color: var(--header-color);
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-decoration: none;
-}
-nav hr {
-    width: auto;
-    margin: 0.5em 0;
-}
 footer {
     background-color: var(--bg-color);
     padding: 0.25em 0.5em;
@@ -106,47 +96,65 @@ a::selection {
     background: var(--color);
     color: var(--bg-color);
 }
-#container {
-    margin: 0 auto 4em auto;
-    width: 640px;
-    flex: 1 0 auto;
+#content {
+    margin: 0 auto;
+    width: 40em;
 }
-#title {
-    background-color: var(--color);
-    bottom: 0;
-    right: 0.2em;
-    margin: 0;
-    position: absolute;
-}
-#title_img {
-    height: 360px;
-    width: 640px;
+.title_container {
     background-image: url("/assets/img/header.png");
+    width: 40em;
     margin: 0 auto 0.5em auto;
     position: relative;
-    flex: 0 0 auto;
     image-rendering: pixelated;
+}
+#site_title {
+    height: 22.5em;
+}
+#post_title {
+    height: 5em;
+}
+.title_header {
+    background-color: var(--color);
+    width: max-content;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+#navigation {
+    display: block;
+    width: 40em;
+    flex: 1 0 auto;
+    margin: 0 auto;
+}
+#navigation li {
+    padding: 0 1em 0 0;
+    display: inline-block;
+}
+#navigation a {
+    font-weight: bold;
+    text-decoration: none;
+}
+#navigation hr {
+    width: auto;
+    margin: 0.5em 0;
 }
 #index li {
     display: block;
+    margin: 0.5em 0;
 }
 #index time {
     display: inline-block;
     width: 8em;
-    margin: 0.5em 0;
 }
 #index a {
     display: inline-block;
-    margin: 0.5em 0;
-    font-weight: normal;
-    text-decoration: underline;
 }
 /* Scale elements on smaller screens to prevent side-scrolling */
-@media only screen and (max-width: 640px) {
-    #container {
+@media only screen and (max-width: 40em) {
+    #content,#navigation {
         width: 96%;
     }
-    #title_img {
+    #site_title,#post_title {
         width: 100%;
     }
 }
