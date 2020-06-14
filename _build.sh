@@ -30,4 +30,4 @@ if [ ! -d "_site" ]; then
 fi
 
 echo "Minify..."
-minify -o _site/ -r _site/
+minify --verbose --output _site/ --recursive _site/

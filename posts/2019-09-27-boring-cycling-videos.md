@@ -20,4 +20,4 @@ The battery life is _meh_ I get about 2 hours shooting time per battery, but the
 
 I wouldn't want to mount it on my lid, it'd see more but it's a bit bulky and heavy, plus you look a berk.
 
-Anyway, recently I've been re-editing the videos I have compiled from previous rides down to 5 minutes or less _(less minutes, less boring)_ and sticking them on [youtube](https://www.youtube.com/channel/UCIBF_vjZRcAmMdVKIFFIXDg).
+Anyway, recently I've been re-editing the videos I have compiled from previous rides down to 5 minutes or less _(less minutes, less boring)_ and sticking them on [Youtube](https://www.youtube.com/channel/UCIBF_vjZRcAmMdVKIFFIXDg).
