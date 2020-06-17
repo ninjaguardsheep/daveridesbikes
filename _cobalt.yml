@@ -1,7 +1,8 @@
 source: "."
 destination: _site
 ignore:
-  - "!Makefile"
+  - "Makefile"
+  - "LICENSE"
 site:
   title: Dave Rides Bikes
   description: Dave rides bikes for great justice and because its fun. Occasionally he writes about the experience.
