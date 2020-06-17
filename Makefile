@@ -12,15 +12,11 @@ build: clean
 
 .PHONY: upload
 upload:
-	sftp -r ${WEBSVR} << EOF
-	cd ${WEBDEST}
-	mput ${BUILDDIR}/*
-	bye
-	EOF
+	printf "cd ${WEBDEST}\nmput ${BUILDDIR}/*\nbye" | sftp -r ${WEBSVR}
 
 .PHONY: clean
 clean:
-	rm -rf ${BUILDDIR}
+	rm -vrf ${BUILDDIR}
 
 .PHONY: push
 push: build upload clean
