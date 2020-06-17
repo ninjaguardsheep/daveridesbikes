@@ -19,4 +19,4 @@ clean:
 	rm -vrf ${BUILDDIR}
 
 .PHONY: push
-push: build upload clean
+push: build upload
