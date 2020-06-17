@@ -64,6 +64,9 @@ a:hover {
     background-color: var(--color);
     color: var(--bg-color);
 }
+li {
+    margin: 0.5em auto;
+}
 hr {
     border-top: 2px solid var(--color);
     border-bottom: none;
