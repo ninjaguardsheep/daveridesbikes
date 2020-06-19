@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #fff;
+    --bg-color: #ccffff;
     --title-color: #80aa68;
     --title-bg-color: #2d3738;
     --color: #2d3738;
@@ -11,8 +11,8 @@
         --bg-color: #2d3738;
         --title-color: #80aa68;
         --title-bg-color: #2d3738;
-        --color: #fff;
-        --selection-color: #fff;
+        --color: #ccffff;
+        --selection-color: #ccffff;
         --selection-bg-color: #80aa68;
     }
 }
