@@ -1,3 +1,9 @@
 <div id="post_title" class="title_container">
-<h1 class="title_header">{{ page.title -}}</h1>
+<h1 class="title_header p-name">{{ page.title -}}</h1>
 </div>
+<section style="display: none;">
+<span class="p-summary">{{ page.description }}</span>
+<time class="dt-published" datetime="{{ page.published_date }}">{{ page.published_date }}</time>
+<a class="p-author h-card" href="{{ site.base_url }}">David Potter</a>
+<a class="u-url" href="{{ site.base_url }}/{{ page.permalink }}">{{ site.base_url }}/{{ page.permalink }}</a>
+</section>
