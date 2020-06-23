@@ -130,6 +130,8 @@ a::selection {
     position: absolute;
     bottom: 0;
     margin: 0;
+    line-height: 1;
+    padding: 0.2em;
 }
 #navigation {
     display: block;
@@ -144,6 +146,8 @@ a::selection {
 #navigation a {
     font-weight: bold;
     border: none;
+    padding: 0.2em;
+    line-height: 1;
 }
 #navigation hr {
     width: auto;
