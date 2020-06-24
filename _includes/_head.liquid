@@ -4,6 +4,7 @@
 <link rel="preload" as="style" type="text/css" href="/assets/css/style.css">
 <link rel="preload" as="image" type="image/png" href="/assets/img/header.png">
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- FML -->
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="/assets/img/favicon.png" sizes="32x32">
@@ -15,7 +16,12 @@
 <link rel="apple-touch-icon" type="image/png" href="/assets/img/favicon-128.png">
 <link rel="apple-touch-icon" type="image/png" href="/assets/img/favicon-152.png" sizes="152x152">
 <link rel="apple-touch-icon" type="image/png" href="/assets/img/favicon-180.png" sizes="180x180">
-<!-- Social Meeja Tags -->
+<!-- Windows -->
+<meta name="msapplication-square70x70logo" content="/assets/img/favicon-128.png">
+<meta name="msapplication-square150x150logo" content="assets/img/favicon-192.png">
+<meta name="msapplication-TileColor" content="#7894a3" />
+<meta name="application-name" content="{{ site.title }}">
+<!-- Social Meeja -->
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:description" content={%- if page.description == "" -%}"{{ site.description }}"{%- else -%}"{{ page.description }}"{%- endif -%}>
 <meta property="og:type" content="website">
@@ -27,7 +33,6 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <!-- Search Engines -->
 <meta name="description" content={%- if page.description == "" -%}"{{ site.description }}"{%- else -%}"{{ page.description }}"{%- endif -%}>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Me -->
 <link rel="me" href="https://www.dnhome.uk/dave/">
 <link rel="me" href="mailto:dave@dnhome.uk">
