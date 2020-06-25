@@ -137,16 +137,26 @@ a::selection {
     display: block;
     width: 40em;
     flex: 1 0 auto;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
+}
+#navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 #navigation li {
-    padding: 0 1em 0 0;
+    flex: 0 1 auto;
+    padding: 0;
+    margin: 1em 0.5em 0.5em 0.5em;
     display: inline-block;
 }
 #navigation a {
     font-weight: bold;
     border: none;
-    padding: 0.2em;
+    padding: 0.8em;
+    margin: 0;
     line-height: 1;
 }
 #navigation hr {
