@@ -1,5 +1,5 @@
 BUILDDIR := _site
-WEBSVR := srv-03
+WEBSVR := srv-01
 WEBDEST := /var/www/www.daveridesbikes.xyz/
 
 .PHONY: build
