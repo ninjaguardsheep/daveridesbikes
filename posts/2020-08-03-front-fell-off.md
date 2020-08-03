@@ -2,7 +2,6 @@
 layout: post.liquid
 title: The Front Fell Off...
 description: "Equipment failures and maintenance."
-is_draft: true
 ---
 
 I had an atypical ride last week, [the front fell off](https://www.youtube.com/watch?v=3m5qxZm_JqM) my bike.
@@ -17,6 +16,4 @@ There was no drama, it didn't snap off in my hand and I didn't crash. Between on
 
 Looking at my recorded distances over the last few years I can account for over 17,000km on these bars and I estimate over 21,000km ridden total on two different bikes, with one _(very minor)_ crash several years ago. I hadn't noticed any oddness prior to failure and have no idea how long the crack was propagating for. 
 
-I don't think I can be mad at the bars for failing given those distances. Aluminium is prone to these kinds of fatigue failures over time.
-
-I do think I probably need to add more frequent inspections 
+I don't think I can be mad at the bars for failing given those distances. Aluminium is prone to these kinds of fatigue failures over time. 
