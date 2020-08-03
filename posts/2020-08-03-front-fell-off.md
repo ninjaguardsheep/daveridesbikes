@@ -1,7 +1,7 @@
 ---
 layout: post.liquid
 title: The Front Fell Off...
-description: "Equipment failures and maintenance."
+description: "Equipment failure."
 ---
 
 I had an atypical ride last week, [the front fell off](https://www.youtube.com/watch?v=3m5qxZm_JqM) my bike.
