@@ -4,10 +4,10 @@ layout: default.liquid
 ---
 <p>{{ site.description }}</p>
 <hr>
-<nav id="index">
+<nav id="post_index">
 <ul>
 {% for post in collections.posts.pages -%}
-<li><time datetime="{{ post.published_date | date: "%Y-%m-%d" }}">{{ post.published_date | date: "%b %d, %Y " }}</time><a href="/{{post.permalink}}">{{ post.title }}</a></li>
+<li><time datetime="{{ post.published_date | date: "%Y-%m-%d" }}">{{ post.published_date | date: "%b %d, %Y " }}</time> - <a href="/{{post.permalink}}">{{ post.title }}</a></li>
 {% endfor -%}
 </ul>
 </nav>
